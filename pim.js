@@ -1,3 +1,5 @@
+// grr, safari
+const AudioContext = window.AudioContext || window.webkitAudioContext;
 function init(ppm) {
   const SAMPLE_RATE  = ppm ? 54000 : 220000;
   const TOTAL_VOICES = 4;
